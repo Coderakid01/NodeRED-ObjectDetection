@@ -1,0 +1,86 @@
+[
+    {
+        "id": "5f8b19168d75b01e",
+        "type": "tab",
+        "label": "Object Detection",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "09d895bd8ba6d2b7",
+        "type": "fileinject",
+        "z": "5f8b19168d75b01e",
+        "name": "",
+        "x": 140,
+        "y": 180,
+        "wires": [
+            [
+                "06d1f477878c23c6",
+                "70425320511d94fa"
+            ]
+        ]
+    },
+    {
+        "id": "06d1f477878c23c6",
+        "type": "image",
+        "z": "5f8b19168d75b01e",
+        "name": "",
+        "width": 160,
+        "data": "annotatedInput",
+        "dataType": "msg",
+        "thumbnail": false,
+        "active": true,
+        "pass": false,
+        "outputs": 0,
+        "x": 380,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "698183183f6690bc",
+        "type": "image",
+        "z": "5f8b19168d75b01e",
+        "name": "",
+        "width": 160,
+        "data": "annotatedInput",
+        "dataType": "msg",
+        "thumbnail": false,
+        "active": true,
+        "pass": false,
+        "outputs": 0,
+        "x": 660,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "70425320511d94fa",
+        "type": "cocossd",
+        "z": "5f8b19168d75b01e",
+        "name": "",
+        "x": 420,
+        "y": 180,
+        "wires": [
+            [
+                "35b519c82d62c461",
+                "698183183f6690bc"
+            ]
+        ]
+    },
+    {
+        "id": "35b519c82d62c461",
+        "type": "debug",
+        "z": "5f8b19168d75b01e",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 180,
+        "wires": []
+    }
+]
