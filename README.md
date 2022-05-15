@@ -15,18 +15,14 @@ Collection of Simple Wireless Sensor Network Project using ESP NOW with Built in
   
   <h3>NodeRED Palette (It's necessary to make sure everything is working)</h3>
 
-  <li>Arduino IDE. <b><a href="https://www.arduino.cc/en/Main/Software_" target="_blank"> Click here to download the Arduino IDE</a></b></li>
-  <li>ESP32 Arduino Library <b><a href="https://github.com/espressif/arduino-esp32" target="_blank"> Please refer this guide </a></b></li>
-  <li> APDS9960 Library </li>
-  <li> BME280 Library </li>  
-  <li> MPU6050 Library </li>
+  <li>Browser Utilities Interaction <b><a href="https://flows.nodered.org/node/node-red-contrib-browser-utils" target="_blank"> Click here to download the Palette</a></b></li>
+  <li>Pre-Trained Model TensorFlow Node <b><a href="node-red-contrib-tensorflow" target="_blank"> Click here to download the Palette</a></b></li>
+  <li>NodeRED Image Output Viewer <b><a href="https://flows.nodered.org/node/node-red-contrib-image-output" target="_blank"> Click here to download the Palette</a></b></li>
+  
   </br>
-<h3>Credits for these awesome people for creating this awesome products and also my lecturers for their guidance!</h3>
+  
+<h3>Feel free to provide a feedback on any issues with this flow :)</h3>
 
-<ul>
-  <li> My Awesome Lecturers from KKTMPJ 😎 </li>
-  <li> MyDuino.com  (En Ariffin Zulkifli and the Team)</li>
-</ul>
 
 </br>
 
